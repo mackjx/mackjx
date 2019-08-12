@@ -41,6 +41,7 @@ ul, .navbar-toggler {
 /*==================== CAROUSEL =============================*/
 .carousel-item {
     height: 80vh;
+    background-size:cover;
 }
 
 .carousel-caption {
@@ -52,7 +53,7 @@ ul, .navbar-toggler {
         text-transform: uppercase;
         font-weight: 700;
         font-size: 8rem;
-        letter-spacing: .1rem;
+        letter-spacing: 1rem;
         padding-bottom:30px;
     }
     .carousel-caption h2,.carousel-caption h3 {
