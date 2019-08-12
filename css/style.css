@@ -7,6 +7,7 @@ html, body{
 
 .navbar{
     padding:.8rem;
+
 }
 .navbar .nav-link{
     padding-right:20px;
@@ -16,9 +17,7 @@ html, body{
     padding:1rem;
     border-radius:0;
 }
-.jumbotron, .navbar-collapse {
-    text-align:center;
-}
+
 
 .padding{
     padding-bottom:1rem;
@@ -126,14 +125,7 @@ ul.timeline {
     margin-top:10px;
 }
 
-[data-toggle~="collapse"] {
-    cursor: pointer;
-}
+
 .carousel-item .fa{
     padding-top:10px;
-}
-@media all and (max-width: 500px) {
-    div.carousel-slide h1 {
-        font-size: 20px;
-    }
 }
