@@ -47,55 +47,44 @@
                     <a class="nav-link" href="img/JaneMack_CV.pdf">Resume</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#exp">Past Projects</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#jumbo">About Me</a>
-                </li>
+
+
             </ul>
         </div>
     </nav><!-- End Navigation-->
     <div id="home"></div>
     <!-- Image Slider -->
-    <div id="slides" class="carousel slide" data-ride="carousel">
+    <div id="slides" class="carousel slide" data-ride="carousel" data-interval="4000">
         <!-- Indicators -->
-        <ul class="carousel-indicators">
+        <ol class="carousel-indicators">
             <li data-target="#slides" data-slide-to="0" class="active"></li>
             <li data-target="#slides" data-slide-to="1"></li>
             <li data-target="#slides" data-slide-to="2"></li>
-
-        </ul>
-
+        </ol>
         <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img style="background-color:black" src="#" />
-                <div class="carousel-caption">
-                    <h1 class="display-2">Jane Mack</h1>
-                    <h4> Wireless Communications Engineer</h4>
+        <div class="carousel-inner" role="listbox">
+            <!-- Slide 1 -->
+            <div class="carousel-item active" style="background-image:url(img/background.png)">             
+                <div class="carousel-caption text-center">
+                    <h1>Welcome</h1>
+                    <h2>Jane Mack</h2>
+                    <h3> Wireless Communications Engineer</h3>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img style="background-color:black" src="#" />
-                <div class="carousel-caption">
-
+            <div class="carousel-item">               
+                <div class="carousel-caption text-center ">
+               
                 </div>
             </div>
-            <div class="carousel-item">
-                <img style="background-color:black" src="#" />
+            <div class="carousel-item">               
                 <div class="carousel-caption">
                     
                 </div>
             </div>
 
         </div>
-        <!-- Left and right controls -->
-        <a class='left carousel-control' href='#slides' data-slide='prev' role="button">
-            <span class='glyphicon glyphicon-chevron-left'></span>
-        </a>
-        <a class='right carousel-control' href='#slides' data-slide='next' role="button">
-            <span class='glyphicon glyphicon-chevron-right'></span>
-        </a>
     </div><!-- End Image Slider -->
     <!-- Jumbotron -->
     <div id="jumbo"></div>
@@ -190,7 +179,7 @@
     <div id="exp"></div>
     <div class="container-fluid padding">
         <div class="row padding">
-            <div class="col-md-3 col-lg-3">
+            <div class="col-md-3">
                 <h2>Skills and Experience</h2>
                 <ul class="list-group">
                     <li class="list-group-item">5G NR</li>
@@ -208,7 +197,7 @@
                 <br />
 
             </div>
-            <div class="col-md-9 ">
+            <div class="col-md-9">
                 <h2 class="text-center">Work Timeline</h2>
                 <hr />
                 <ul class="timeline">
@@ -220,24 +209,20 @@
 
                         <p><strong>Member Technical Staff</strong></p>
                         <p>
-                            Member of the Research and Development division that innovates
-                            emerging wireless communication and advanced technologies.
-                            Responsibilities include developing effective Test Plans,
-                            Procedures, and Reports for the System Integration and test of
-                            Interdigital technology platform solutions.  Created, developed
-                            and implemented strategies for all phases of cellular device
-                            product testing including conformance tests, network performance,
-                            field trials, drive testing, interoperability tests, live network
-                            tests and stress tests.  Participated in Field Trials, Test Beds
-                            and university collaboration.
+                            Member of the Research and Development division that innovates emerging wireless communication and advanced technologies.
+                            Responsibilities include developing effective Test Plans, Procedures, and Reports for the System integration and test of technology platform solutions.
+                            Created, developed and implemented strategies for all phases of cellular device product testing including conformance tests, network performance, 
+                            field trials, drive testing, interoperability tests, live network tests and stress tests.  Conducted performance analysis and characterization 
+                            of the Air Interface for optimization studies. Participated in Field Trials, Test Beds and university collaborations around the world.
                         </p>
                         <button type="button" class="btn btn-outline-dark btn-md" onclick="changeVisibility('inter')">View Work</button>
                         <div class="exp-div" style="display:none" id="inter">
                             <p><strong>mmW technology:</strong></p>
                             <p>
                                 •	Involved in the platform bring-up and verification of a 5G NR 28GHz platform system with beam management capability
-                                •	Responsible for the on-site delivery of the EdgeLink 60GHz solution  to New York COSMOS Wireless PAWR testbed at Rutgers University
-                                •	Team lead in the successful on-site trial and demonstration of the millimeter wave (mmW) EdgeLink 60GHz solution with the CrossHaul testbeds in Berlin and Madrid.  This effort included our successful integration with technology innovations from six partners in the H2020 5G Crosshaul consortium.
+                                •	Responsible for the on-site delivery of the EdgeLink 60GHz solution to New York COSMOS Wireless PAWR testbed at Rutgers University
+                                •	Team lead in the successful on-site trial and demonstration of the millimeter wave (mmW) EdgeLink 60GHz WiGig solution with the CrossHaul testbeds
+                                    in Berlin and Madrid.  This effort included our successful integration with technology innovations from six partners in the H2020 5G CrossHaul consortium.
                             </p>
                             <p><strong>Dynamic Spectrum Management (DSM) technology</strong></p>
                             <p>
@@ -246,9 +231,12 @@
                             </p>
                             <p><strong>2G/3G </strong></p>
                             <p>
-                                •	Lead the Inter-Operability Testing (IOT) of 2G/3G reference design at Ericsson facilities in Plano and Montreal
+                                •	Responsibilities include testing and verifying the physical layer and network protocol requirements for a 3G modem
+                                •	Lead for the Inter-Operability Testing (IOT) of 2G/3G reference design at Ericsson facilities in Plano and Montreal
                                 •	System Integration & Verification (SIV) lead for InterDigital’s participation in the MUOS military project
-                                •	System Integration & Verification lead for the successful completion of GCF, PTRB & FCC certification effort of Interdigital 6071 SlimChip (with HSDPA & HSUPA) reference platform at 7 Layers Conformance Test facility.
+                                •	System Integration & Verification lead for the successful completion of GCF, PTRB & FCC certification effort of Interdigital 6071 SlimChip (with HSDPA & HSUPA)
+                                    reference platform at 7 Layers Conformance Test facility.
+
                             </p>
                         </div>
                     </li>
@@ -267,7 +255,8 @@
                                 •	Develop and define plans for the implementation or change of outside plant network that are most feasible and economical
                             </p>
                             <p>
-                                •	Maintains the security of the outside fiber plant (OSP) network, either aerial and/or underground, throughout area of responsibility by managing cable location, locating contractors and initiating protection activities
+                                •	Maintains the security of the outside fiber plant (OSP) network, either aerial and/or underground, throughout area of responsibility by managing cable location, 
+                                    locating contractors and initiating protection activities
                             </p>
                         </div>
                     </li>
@@ -291,56 +280,41 @@
                             </p>
                         </div>
                     </li>
-
-                    <li>
-                        <p class="lead">
-                            <i>Northrop Grumman (formerly Grumman Aerospace) </i>| Bethpage, NY
-                            <!--<span class="float-right">1983 – 1997</span>-->
-                        </p>
-                        <p><strong>Senior Engineer</strong></p>
-                        <p>
-                            Developed technical system requirements and performed system integration of avionic subsystems in preparation for Navy flight tests with focus on communication, navigation, radar systems.
-                        </p>
-                        <button type="button" class="btn btn-outline-dark btn-md" onclick="changeVisibility('grum')">View Work</button>
-                        <div class="exp-div" style="display:none" id="grum">
-                            <p>•	Contributed to all phases of the systems/software integration process on both programs, including design, integration, test, troubleshooting of the advanced digital and analog avionics suites resulting in the successful flight test of avionics suite</p>
-                            <p>•	Conducted 1553 MUX network acceptance tests which contributed to successful customer witnessed selloffs</p>
-                            <p>•	Successfully completed on-site verification of avionic test programs onboard US Navy carriers.</p>
-
-                        </div>
-                    </li>
                 </ul>
             </div>
         </div>
     </div>
     <hr class="my-4" />
-
     <!--Contact-->
     <div class="container-fluid padding">
         <div class="row text-center padding">
             <div class="col-12">
-                <h2>Connect</h2>
+                <h2>Contact Info</h2>
+                <i class="fa fa-envelope-o fa-fw "> </i>
+                <a href="mailto:jane.mack@gmail.com">jane.mack@gmail.com </a>
+            </div>
+        </div>
+        <div class="row text-center padding">
+            <div class="col-lg-4 col-md-4 col-sm-4 social padding">
+                <a href="https://github.com/mackjx"><i class="fa fa-github fa-3x"></i></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 social padding">
-                <a href="#"><i class="fa fa-github fa-3x"></i></a>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 social padding">
-                <a href="#"><i class="fa fa-linkedin fa-3x"></i></a>
+                <a href="https://www.linkedin.com/in/jane-mack/"><i class="fa fa-linkedin fa-3x"></i></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 social col-xs-4 padding">
                 <a href="#"><i class="fa fa-google-plus fa-3x"></i></a>
             </div>
-
         </div>
-    </div>
-    <!-- Footer -->
-    <div class="container-fluid padding">
-        <div class="row text-center">
-            <div class="col-12">
-                <hr class="light" />
-                <h5>&copy; janemack.github.io</h5>
+        </div>
+        <!-- Footer -->
+        <div id="contact"></div>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-12">
+                    <hr class="light" />
+                    <h5>&copy; janemack.github.io</h5>
+                </div>
             </div>
         </div>
-    </div>
 </body>
 </html>
