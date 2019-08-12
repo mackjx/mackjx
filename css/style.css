@@ -1,4 +1,4 @@
-﻿html, body{
+html, body{
     height:100%;
     width:100%;
     
@@ -124,4 +124,16 @@ ul.timeline {
     padding: 15px;
     background-color: #d4d9df;
     margin-top:10px;
+}
+
+[data-toggle~="collapse"] {
+    cursor: pointer;
+}
+.carousel-item .fa{
+    padding-top:10px;
+}
+@media all and (max-width: 500px) {
+    div.carousel-slide h1 {
+        font-size: 20px;
+    }
 }
